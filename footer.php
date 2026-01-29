@@ -17,7 +17,7 @@
 
     <div style="flex:1; min-width:150px;">
       <p><a href="<?php echo site_url('/terms'); ?>" style="color:#fff; text-decoration:underline;">利用規約</a></p>
-      <p><a href="<?php echo site_url('/affiliate'); ?>" style="color:#fff; text-decoration:underline;">紹介サービス</a></p>
+      <p><a href="<?php echo site_url('/privacy-policy'); ?>" style="color:#fff; text-decoration:underline;">プライバシーポリシー</a></p>
       <p><a href="<?php echo site_url('/contact'); ?>" style="color:#fff; text-decoration:underline;">お問い合わせ</a></p>
     </div>
 
