@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問合せページ | 教育の森（算数・数学）</title>
+<style>
+/* ===== 全体 ===== */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background: #F5F7FA;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-left: 8px solid #0066CC;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* ===== 見出し ===== */
+h1 {
+  color: #003366;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* ===== フォーム ===== */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #003366;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button {
+  background: #0066CC;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #003366;
+}
+
+/* ===== スマホ対応 ===== */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>お問合せ</h1>
+  <p>ご質問やご要望はこちらのフォームからお気軽にお送りください。</p>
+
+  <form>
+    <label for="name">お名前</label>
+    <input type="text" id="name" name="name" placeholder="例：数学　森太郎">
+
+    <label for="email">メールアドレス</label>
+    <input type="email" id="email" name="email" placeholder="例：you@example.com">
+
+    <label for="message">お問い合わせ内容</label>
+    <textarea id="message" name="message" placeholder="お問い合わせ内容を入力してください"></textarea>
+
+    <button type="button">送信（プレビュー用）</button>
+  </form>
+
+  <div style="margin-top:40px; background:#FFCC00; padding:15px; font-weight:bold; text-align:center; max-width:400px; margin-left:auto; margin-right:auto;">
+    🌳 画面プレビューです。送信はされません 🌳
+  </div>
+</div>
+
+</body>
+</html>

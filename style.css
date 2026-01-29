@@ -1,11 +1,124 @@
-/*
-Theme Name: 教育の森（算数・数学）
-Theme URI: https://mathprint-forest.com/
-Author: Yokoe
-Template: 親テーマのフォルダ名
-Version: 1.0
-*/
+/* ===== 全体 ===== */
+.site-top {
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background: #F5F7FA; /* 画面全体の背景色をここではなくbodyで設定する */
+  padding: 30px;
+  width: 100%; /* 親は全幅 */
+  margin: 0;
+  box-sizing: border-box;
+}
 
-body {
-  background: #f5f7fa;
+.site-top .inner {
+  width: 80%;        /* コンテンツ幅だけ80%に */
+  max-width: 1200px;
+  margin: 0 auto;    /* 中央寄せ */
+}
+
+/* ===== 2カラムレイアウト ===== */
+.top-layout {
+  display: flex;
+  gap: 30px;
+  width: 100%; /* 親に合わせる */
+}
+
+/* 左：固定コンテンツ */
+.top-left {
+  flex-basis: 33%;
+}
+
+/* 右：最新記事 */
+.top-right {
+  flex-basis: 67%;
+}
+
+/* ===== タイトル ===== */
+.site-top h1 {
+  color: #003366;
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.site-top .subtitle {
+  color: #555;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ===== セクション ===== */
+.section {
+  background: #ffffff;
+  border-left: 8px solid #0066CC;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.section h2 {
+  color: #0066CC;
+  margin-top: 0;
+}
+
+/* ===== 学年見出し ===== */
+.section h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+/* ===== リンク ===== */
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section li {
+  margin-bottom: 8px;
+}
+
+.section a {
+  text-decoration: none;
+  color: #0066CC;
+  font-weight: bold;
+}
+
+.section a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
+.highlight {
+  background: #FFCC00;
+  padding: 15px;
+  font-weight: bold;
+  margin: 0 auto 30px auto; /* 上:0, 左右:auto, 下:30px */
+  text-align: center;       /* 文字中央 */
+  width: 80%;               /* 幅は80% */
+  box-sizing: border-box;   /* パディング込みで幅を計算 */
+}
+
+/* ===== スマホ対応 ===== */
+@media screen and (max-width: 768px) {
+
+  .site-top {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .top-layout {
+    flex-direction: column; /* 縦並び */
+    width: 100%; /* 幅は100%に */
+  }
+
+  .top-left,
+  .top-right {
+    width: 100%; /* 全幅 */
+  }
+
+  /* スマホでは見出し少し小さく */
+  .site-top h1 {
+    font-size: 24px;
+  }
+
+  .section {
+    padding: 15px;
+  }
 }
