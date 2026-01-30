@@ -10,7 +10,6 @@
 
     <div style="flex:1; min-width:150px;">
       <p><a href="<?php echo site_url('/'); ?>" style="color:#fff; text-decoration:underline;">ホーム</a></p>
-      <p><a href="<?php echo site_url('/column'); ?>" style="color:#fff; text-decoration:underline;">コラム</a></p>
       <p><a href="<?php echo site_url('/about'); ?>" style="color:#fff; text-decoration:underline;">運営会社</a></p>
       <p><a href="<?php echo site_url('/faq'); ?>" style="color:#fff; text-decoration:underline;">よくある質問</a></p>
     </div>
@@ -18,7 +17,7 @@
     <div style="flex:1; min-width:150px;">
       <p><a href="<?php echo site_url('/terms'); ?>" style="color:#fff; text-decoration:underline;">利用規約</a></p>
       <p><a href="<?php echo site_url('/privacy-policy'); ?>" style="color:#fff; text-decoration:underline;">プライバシーポリシー</a></p>
-      <p><a href="<?php echo site_url('/contact'); ?>" style="color:#fff; text-decoration:underline;">お問い合わせ</a></p>
+      <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeiw5wrJoiCSPW2jMCNvJPziz1fUbPjOUh5nEmGrJ7pSkssQw/viewform?usp=publish-editor" style="color:#fff; text-decoration:underline;">お問い合わせ</a></p>
     </div>
 
   </div>

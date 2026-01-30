@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: ABOUT
+*/
+get_header();
+?>
 
 <div class="company-page">
   <div class="inner" style="text-align:center; padding:60px 20px;">

@@ -22,31 +22,31 @@
 
             <h3>幼児向け</h3>
             <ul>
-            <li><a href="#">3歳</a></li>
-            <li><a href="#">4歳</a></li>
-            <li><a href="#">5歳</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/pre-3">3歳</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/pre-4">4歳</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/pre-5">5歳</a></li>
             </ul>
 
             <h3>小学校</h3>
             <ul>
-            <li><a href="#">1年</a></li>
-            <li><a href="#">2年</a></li>
-            <li><a href="#">3年</a></li>
-            <li><a href="#">4年</a></li>
-            <li><a href="#">5年</a></li>
-            <li><a href="#">6年</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/elementary-g1">1年</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/elementary-g2">2年</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/elementary-g3">3年</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/elementary-g4">4年</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/elementary-g5">5年</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/elementary-g6">6年</a></li>
             </ul>
 
             <h3>中学校</h3>
             <ul>
-            <li><a href="#">中1</a></li>
-            <li><a href="#">中2</a></li>
-            <li><a href="#">中3</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/juniorhigh-g1">中1</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/juniorhigh-g2">中2</a></li>
+            <li><a href="https://mathprint-forest.com/archives/print/juniorhigh-g3">中3</a></li>
             </ul>
 
             <h3>高校・大学</h3>
             <ul>
-            <li><a href="#">高校数学</a></li>
+            <li><a href="#">高校数学　数１</a></li>
             <li><a href="#">大学数学</a></li>
             </ul>
         </section>

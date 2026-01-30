@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: FAQ
+*/
+get_header();
+?>
 
 <div class="faq-page">
   <div class="inner" style="text-align:center; padding:60px 20px;">
@@ -41,7 +46,7 @@
 
     <!-- メッセージボックス風 -->
     <div class="highlight" style="margin-top:20px; width:80%; max-width:400px; margin-left:auto; margin-right:auto; background-color:#E8F5E9; padding:15px; border-radius:10px; font-weight:bold;">
-      🌳 困ったときは森を探検するように順番に確認してね 🌳
+      🌳 基本的には全部無料だから安心してね 🌳
     </div>
 
   </div>

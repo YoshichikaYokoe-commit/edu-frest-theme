@@ -122,3 +122,80 @@
     padding: 15px;
   }
 }
+
+
+
+
+.print-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.print-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.print-badge {
+  display: inline-block;
+  background: #eef6ff;
+  color: #2563eb;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.print-title {
+  font-size: 32px;
+  margin: 8px 0;
+}
+
+.print-subtitle {
+  color: #666;
+}
+
+.print-description,
+.print-pdf,
+.print-tip {
+  margin-bottom: 40px;
+}
+
+.print-description ul {
+  padding-left: 1.2em;
+}
+
+.print-description li {
+  margin-bottom: 8px;
+}
+
+.print-pdf iframe {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.print-actions {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.btn-download {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-download:hover {
+  background: #1e40af;
+}
+
+.print-tip {
+  background: #f9fafb;
+  padding: 20px;
+  border-left: 6px solid #2563eb;
+}
